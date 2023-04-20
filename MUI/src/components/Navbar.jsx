@@ -10,6 +10,7 @@ import InsertDriveFileOutlinedIcon from "@mui/icons-material/InsertDriveFileOutl
 import GradingOutlinedIcon from "@mui/icons-material/GradingOutlined";
 import DisplaySettingsOutlinedIcon from "@mui/icons-material/DisplaySettingsOutlined";
 import LocalPostOfficeOutlinedIcon from "@mui/icons-material/LocalPostOfficeOutlined";
+import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 
 import styles from "../assets/css/navbar.module.css";
 

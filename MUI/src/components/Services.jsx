@@ -62,9 +62,9 @@ const sxBox = {
 // }
 const MyBox = styled.div`
 background-color:yellow;
-&:hover: {
-  .path: { fill: blue };
-  .ball: { color:black };
+:hover {
+  ."path": { fill: blue };
+  ."ball": { color:black };
   transition: all 5s ease;
 },
 `;
