@@ -12,8 +12,16 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import YouTubeIcon from "@mui/icons-material/YouTube";
+import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 
 import heroBg from "../assets/img/hero-bg.jpg";
+import BasicMenu from "./BasicMenu";
+
+const DropMenu = styled("div")(({ theme }) => ({
+  [theme.breakpoints.up("md")]: {
+    display: "none",
+  },
+}));
 
 const MyHero = styled("div")(({ theme }) => ({
   [theme.breakpoints.up("md")]: {
@@ -51,6 +59,20 @@ const Info = styled("div")((theme) => ({
 const Hero = () => {
   return (
     <>
+      <Box
+        sx={{
+          position: "absolute",
+          top: "10px",
+          right: "10px",
+          // background: "#000",
+          zIndex: "5",
+        }}
+      >
+        <DropMenu>
+          <BasicMenu />
+        </DropMenu>
+        {/* <MenuOutlinedIcon /> */}
+      </Box>
       <MyHero>
         <Container>
           <Info>
