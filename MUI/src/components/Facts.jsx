@@ -118,7 +118,7 @@ const Facts = () => {
                   fontWeight: "600",
                 }}
               >
-                <NumberCounter start={0} end={232} delay={4} />
+                <NumberCounter end={232} duration={10} />
               </Typography>
               <Typography component="p">Happy Clients</Typography>
             </Container>
@@ -151,7 +151,7 @@ const Facts = () => {
                   fontWeight: "600",
                 }}
               >
-                <NumberCounter start={0} end={512} delay={4} />
+                <NumberCounter end={512} duration={10} />
               </Typography>
               <Typography component="p">Projects</Typography>
             </Container>
@@ -184,7 +184,7 @@ const Facts = () => {
                   fontWeight: "600",
                 }}
               >
-                <NumberCounter start={0} end={1463} delay={4} />
+                <NumberCounter end={1463} duration={10} />
               </Typography>
               <Typography component="p">Hours Of Support</Typography>
             </Container>
@@ -217,7 +217,7 @@ const Facts = () => {
                   fontWeight: "600",
                 }}
               >
-                <NumberCounter start={0} end={25} delay={4} />
+                <NumberCounter end={25} duration={10} />
               </Typography>
               <Typography component="p">Awards</Typography>
             </Container>
