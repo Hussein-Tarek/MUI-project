@@ -1,5 +1,5 @@
 import React from "react";
-import CountUp from "react-countup";
+import NumberCounter from "react-countup";
 
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
@@ -118,7 +118,7 @@ const Facts = () => {
                   fontWeight: "600",
                 }}
               >
-                <CountUp start={0} end={232} delay={4}></CountUp>
+                <NumberCounter start={0} end={232} delay={4} />
               </Typography>
               <Typography component="p">Happy Clients</Typography>
             </Container>
@@ -151,7 +151,7 @@ const Facts = () => {
                   fontWeight: "600",
                 }}
               >
-                <CountUp start={0} end={521} delay={4}></CountUp>
+                <NumberCounter start={0} end={512} delay={4} />
               </Typography>
               <Typography component="p">Projects</Typography>
             </Container>
@@ -184,7 +184,7 @@ const Facts = () => {
                   fontWeight: "600",
                 }}
               >
-                <CountUp start={0} end={1463} delay={4}></CountUp>
+                <NumberCounter start={0} end={1463} delay={4} />
               </Typography>
               <Typography component="p">Hours Of Support</Typography>
             </Container>
@@ -217,7 +217,7 @@ const Facts = () => {
                   fontWeight: "600",
                 }}
               >
-                <CountUp start={0} end={25} delay={4}></CountUp>
+                <NumberCounter start={0} end={25} delay={4} />
               </Typography>
               <Typography component="p">Awards</Typography>
             </Container>
